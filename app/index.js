@@ -37,7 +37,7 @@ module.exports = generators.Base.extend({
   },
   writing: function () {
     this.fs.copyTpl(
-      [this.templatePath('**/*')],
+      [this.templatePath('**/*'), this.templatePath('.*')],
       this.destinationPath(''),
       {
         name: this.name,
