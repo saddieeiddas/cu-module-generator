@@ -26,7 +26,7 @@ module.exports = generators.Base.extend({
       if (this.name == '') {
         errorAndExit('Module Name is Required', this.log);
       }
-      this.nameSlug = this.name.toLowerCase().replace(' ', '-');
+      this.nameSlug = this.name.toLowerCase().replace(new RegExp(' ', 'g'), '-');
       if (fs.existsSync(this.destinationPath(this.nameSlug))) {
         errorAndExit('Directory "' + this.nameSlug + '" Already Exists', this.log);
       } else {
