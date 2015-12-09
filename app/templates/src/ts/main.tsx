@@ -6,6 +6,6 @@
 
 /// <reference path="../tsd/tsd.d.ts" />
 
-import * as cu from 'cu-core';
+import * as cu from 'camelot-unchained';
 
 console.log('cu-<%= nameSlug %>');
