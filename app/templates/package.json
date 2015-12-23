@@ -5,6 +5,7 @@
   "description": "Camelot Unchained UI - <%= name %>",
   "license": "MPL-2.0",
   "main": "src/ts/main.tsx",
+  "author": "City State Entertainment, LLC <support@citystateentertainment.com>",
   "contributors": [
   ],
   "keywords": [
@@ -27,7 +28,7 @@
     "camelot-unchained": "latest"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "latest",
     "cu-build-tools": "latest"
   }
 }
