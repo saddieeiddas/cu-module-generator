@@ -7,7 +7,8 @@ npm-debug.log
 /bin
 /obj
 /tmp
+/tmpp
 /dist
 /publish
 /.vs
-/src/tsd
+/typings

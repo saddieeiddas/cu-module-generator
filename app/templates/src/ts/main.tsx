@@ -4,8 +4,6 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-/// <reference path="../tsd/tsd.d.ts" />
-
 import * as cu from 'camelot-unchained';
 
 console.log('cu-<%= nameSlug %>');

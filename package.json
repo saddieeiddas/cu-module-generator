@@ -1,10 +1,11 @@
 {
   "name": "generator-cu-module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Yeoman Generator for Camelot Unchained UI Modules",
   "license": "MPL-2.0",
   "contributors": [
-    "saddieeiddas <saddie.eiddas@gmail.com>"
+    "saddieeiddas <saddie.eiddas@gmail.com>",
+    "JB (codecorsair) <jb@codecorsair.com>"
   ],
   "files": [
     "app",
