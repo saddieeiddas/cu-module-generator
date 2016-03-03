@@ -45,7 +45,7 @@ module.exports = generators.Base.extend({
       }
     );
     this.fs.move(
-      this.destinationPath('src/cu-boilerplate-module.ui'),
+      this.destinationPath('src/module.ui'),
       this.destinationPath('src/' + this.nameSlug + '.ui')
     );
     this.fs.move(
